@@ -1,0 +1,13 @@
+name: PurpurEnd
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A custom End dimension with Purpur blocks and new entities
+api-version: "1.21"
+commands:
+  PurpurEnd:
+    description: Manage loot in the Purpur End dimension
+    usage: /PurpurEnd <add/remove/list> <percent> <minimum> <maximum>
+  PurpurPortal:
+    description: Generate a custom End Portal
+    usage: /PurpurPortal
